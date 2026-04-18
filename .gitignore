@@ -1,17 +1,5 @@
-# =====================================
-
-# SISTEMA OPERACIONAL
-
-# =====================================
-
 .DS_Store
 Thumbs.db
-
-# =====================================
-
-# LOGS E TEMPORÁRIOS
-
-# =====================================
 
 *.log
 *.tmp
@@ -20,143 +8,13 @@ Thumbs.db
 *.bak
 *.cache
 
-# =====================================
-
-# ARQUIVOS COMPACTADOS
-
-# =====================================
-
-*.zip
-*.rar
-*.7z
-*.tar
-*.gz
-
-# =====================================
-
-# AMBIENTE / CONFIGURAÇÃO
-
-# =====================================
+.vscode/
+.idea/
 
 .env
 .env.*
 *.env
 
-# =====================================
-
-# IDE / EDITORES
-
-# =====================================
-
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# =====================================
-
-# BACKUPS E RASCUNHOS
-
-# =====================================
-
-backup/
-backups/
-drafts/
-old/
-temp/
-
-# =====================================
-
-# DOCUMENTOS SENSÍVEIS (CRÍTICO)
-
-# =====================================
-
-# Contratos reais
-
-contracts_signed/
-signed_contracts/
-executed_contracts/
-
-# Dados de clientes/artistas
-
-clients/
-clients_data/
-artists_data/
-private_data/
-
-# Estratégia interna
-
-internal_strategy/
-confidential/
-restricted/
-
-# =====================================
-
-# LEGAL LIBRARY (PROTEÇÃO AVANÇADA)
-
-# =====================================
-
-# 🔥 Se quiser proteger TOTALMENTE seu diferencial:
-
-references/legal_library/proprietary/
-
-# (opcional - use com cautela)
-
-# references/legal_library/licensed/
-
-# =====================================
-
-# DOCUMENTOS JURÍDICOS REAIS
-
-# =====================================
-
-*.docx
-*.pdf
-*.rtf
-
-# ⚠️ IMPORTANTE:
-
-# Se você usa .md para contratos reais, NÃO ignore globalmente.
-
-# Proteja por pasta específica:
-
-real_contracts/
-signed_docs/
-
-# =====================================
-
-# EXPORTS E GERADOS
-
-# =====================================
-
-exports/
-generated_contracts/
-outputs/
-
-# =====================================
-
-# SISTEMAS FUTUROS (PREPARADO)
-
-# =====================================
-
 node_modules/
 dist/
 build/
-
-# =====================================
-
-# SEGURANÇA EXTRA
-
-# =====================================
-
-# Qualquer coisa com "secret"
-
-*secret*
-*private*
-*confidential*
-
-# =====================================
-
-# FIM
-
-# =====================================
