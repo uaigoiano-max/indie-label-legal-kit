@@ -1,88 +1,162 @@
-# =========================
+# =====================================
 
 # SISTEMA OPERACIONAL
 
-# =========================
+# =====================================
 
 .DS_Store
 Thumbs.db
 
-# =========================
+# =====================================
 
-# LOGS
+# LOGS E TEMPORÁRIOS
 
-# =========================
+# =====================================
 
 *.log
-
-# =========================
-
-# ARQUIVOS TEMPORÁRIOS
-
-# =========================
-
 *.tmp
 *.temp
 *.swp
 *.bak
+*.cache
 
-# =========================
+# =====================================
 
 # ARQUIVOS COMPACTADOS
 
-# =========================
+# =====================================
 
 *.zip
 *.rar
 *.7z
+*.tar
+*.gz
 
-# =========================
+# =====================================
 
 # AMBIENTE / CONFIGURAÇÃO
 
-# =========================
+# =====================================
 
 .env
-.env.local
-.env.*.local
+.env.*
+*.env
 
-# =========================
+# =====================================
+
+# IDE / EDITORES
+
+# =====================================
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =====================================
 
 # BACKUPS E RASCUNHOS
 
-# =========================
+# =====================================
 
 backup/
 backups/
 drafts/
+old/
+temp/
 
-# =========================
+# =====================================
 
-# DOCUMENTOS SENSÍVEIS (SE QUISER PROTEGER)
+# DOCUMENTOS SENSÍVEIS (CRÍTICO)
 
-# =========================
+# =====================================
 
-# Descomente se necessário:
+# Contratos reais
 
-# contracts_signed/
+contracts_signed/
+signed_contracts/
+executed_contracts/
 
-# confidential/
+# Dados de clientes/artistas
 
-# clients_data/
+clients/
+clients_data/
+artists_data/
+private_data/
 
-# =========================
+# Estratégia interna
 
-# IDE / EDITORES
+internal_strategy/
+confidential/
+restricted/
 
-# =========================
+# =====================================
 
-.vscode/
-.idea/
+# LEGAL LIBRARY (PROTEÇÃO AVANÇADA)
 
-# =========================
+# =====================================
 
-# NODE (CASO USE NO FUTURO)
+# 🔥 Se quiser proteger TOTALMENTE seu diferencial:
 
-# =========================
+references/legal_library/proprietary/
+
+# (opcional - use com cautela)
+
+# references/legal_library/licensed/
+
+# =====================================
+
+# DOCUMENTOS JURÍDICOS REAIS
+
+# =====================================
+
+*.docx
+*.pdf
+*.rtf
+
+# ⚠️ IMPORTANTE:
+
+# Se você usa .md para contratos reais, NÃO ignore globalmente.
+
+# Proteja por pasta específica:
+
+real_contracts/
+signed_docs/
+
+# =====================================
+
+# EXPORTS E GERADOS
+
+# =====================================
+
+exports/
+generated_contracts/
+outputs/
+
+# =====================================
+
+# SISTEMAS FUTUROS (PREPARADO)
+
+# =====================================
 
 node_modules/
+dist/
+build/
+
+# =====================================
+
+# SEGURANÇA EXTRA
+
+# =====================================
+
+# Qualquer coisa com "secret"
+
+*secret*
+*private*
+*confidential*
+
+# =====================================
+
+# FIM
+
+# =====================================
