@@ -1,0 +1,24 @@
+.DS_Store
+Thumbs.db
+
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+*.cache
+
+.vscode/
+.idea/
+
+.env
+.env.*
+*.env
+
+node_modules/
+dist/
+build/
+
+# Contratos privados de quem estiver usando o kit (nunca devem ir para o repositório público)
+plugins/indie-label-legal-kit/skills/legal-kit/references/legal_library/own_contracts/*
+!plugins/indie-label-legal-kit/skills/legal-kit/references/legal_library/own_contracts/README.md

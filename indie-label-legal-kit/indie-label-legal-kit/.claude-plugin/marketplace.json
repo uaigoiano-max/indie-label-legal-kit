@@ -1,0 +1,15 @@
+{
+  "name": "indie-label-legal-kit",
+  "description": "Marketplace do Indie Label Legal Kit — automação jurídica para selos independentes, editoras e artistas.",
+  "owner": {
+    "name": "Monkey In Space Music Group"
+  },
+  "plugins": [
+    {
+      "name": "indie-label-legal-kit",
+      "description": "Contratos, cláusulas modulares e apoio à negociação para a indústria musical.",
+      "source": "./plugins/indie-label-legal-kit",
+      "category": "legal"
+    }
+  ]
+}
