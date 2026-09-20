@@ -271,4 +271,6 @@ Este projeto é disponibilizado sob licença MIT — livre para uso, adaptação
 
 ## 🙌 Créditos
 
+@UaiGoiano
+
 Este projeto foi originalmente desenvolvido pela **Monkey In Space Music Group**, uma operação independente de gravadora e editora musical, que estruturou este sistema para uso interno antes de disponibilizá-lo à comunidade da indústria musical como ferramenta open-source.
